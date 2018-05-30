@@ -82,7 +82,7 @@ function nextlevel() {
     levels++;
     add = 90;
     level.innerHTML = levels;
-    setTime.innerHTML = add;
+    setTime.innerHTML = 5;
 }
 
 function gameOver() {
