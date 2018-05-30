@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>色彩记忆小游戏</title>
+	<!--<link rel="stylesheet" href="css/demo_old.css">-->
+	<link rel="stylesheet" href="css/demo.css">
+</head>
+
+<body>
+	<div class="container">
+
+        <span class="title-span">COLOR FIND FINE</span>
+        <p>在游戏开始之前，你有五秒钟的时间记忆色彩方块位置，五秒钟后，寻找你记忆中配对的方块吧！<br />游戏限时，选对一个加10分，选错一个扣4分，若返回主页面，所有分数清空</p>
+		<div class="star-div">
+			<a href="#" class="btn-div" id="btn-div">开始游戏</a>
+		</div>
+		<div class="top-div">
+			<div class="cont-div">
+				得分：
+				<span class="cont">0</span>
+			</div>
+			<div class="resetdiv">
+				<a href="#" class="reset">主页</a>
+			</div>
+
+			<div class="timediv">
+				<a class="time">
+					<span class="set-time">5</span>S
+				</a>
+			</div>
+
+			<div class="checkdiv">
+				<div class="checkfo">
+					<div class="checkTo">难度</div>
+					<ul class="checkUl">
+						<li>简单</li>
+						<li>中等</li>
+						<li>困难</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="level-div">
+				关卡：
+				<span class="level">1</span>
+			</div>
+
+		</div>
+
+		<div class="box-div" id="box-div">
+			<!--该处div用于插入彩色方块-->
+
+		</div>
+
+	</div>
+
+	<div class="overBack">
+		<div class="game-over"></div>
+		<div class="button-div">
+
+			<span class="back reset next">返回主页</span>
+		</div>
+
+	</div>
+	<div class="gameWin">
+
+		<div class="game-win"></div>
+		<div class="button-div">
+			<span class="back reset">返回主页</span>
+			<span class="next reset">下一关</span>
+		</div>
+	</div>
+	<div class="game-ready" ></div>
+
+	<script src="js/demo.js"></script>
+</body>
+
+</html>
