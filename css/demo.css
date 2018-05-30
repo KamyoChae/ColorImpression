@@ -169,7 +169,7 @@ p{
 
 .game-win, .game-over{
     position: absolute;
-    top:30%;
+    top:44%;
     left: 50%;
     margin: -10rem -12.5rem;
     width: 25rem;
@@ -252,6 +252,9 @@ p{
     .checkUl{
         width: 7rem;
     }
+    .game-win, .game-over{
+        top:34%;
+    }
 } 
 
 @media screen and ( min-width: 359px){
@@ -268,6 +271,9 @@ p{
     }
     .checkUl{
         width: 8rem;
+    }
+    .game-win, .game-over{
+        top:34%;
     }
 
 } 
