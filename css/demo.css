@@ -81,7 +81,6 @@ p{
     width: 80%;
     margin: 0 auto;
     text-align: center;
-  
 }
 
 .con {
@@ -170,11 +169,11 @@ p{
 
 .game-win, .game-over{
     position: absolute;
-    top:50%;
+    top:30%;
     left: 50%;
     margin: -10rem -12.5rem;
     width: 25rem;
-    height: 20rem;
+    height: 15rem;
     background-size:contain;
 }
 
@@ -198,7 +197,7 @@ p{
 }
 .button-div{
     position: absolute;
-    top:50%;
+    top:25%;
     left: 50%;
     margin: 11rem 0  0 -17rem ;
     width: 34rem;
@@ -242,9 +241,9 @@ p{
         margin: 0 1.2rem;
     }
     .con {
-
         width: 2.8rem;
         height: 2.8rem;
+        margin: 5px;
     }
 
     .reset, .checkTo{
@@ -264,8 +263,8 @@ p{
     }
     .con {
    
-        width: 2.5rem;
-        height: 2.5rem;
+        width: 3.2rem;
+        height: 3.2rem;
     }
     .checkUl{
         width: 8rem;
@@ -282,8 +281,8 @@ p{
     }
     .con {
 
-        width: 2.2rem;
-        height: 2.2rem;
+        width: 3.2rem;
+        height: 3.2rem;
     }
     .checkUl{
         width: 8rem;
@@ -304,7 +303,7 @@ p{
     }
 }
 
-@media screen and ( max-width: 799px){
+@media screen and ( min-width: 481px){
     
     html{ 
         font-size: 17px; 
@@ -321,7 +320,7 @@ p{
         width: 10rem;
     }
 }
-@media screen and (min-width: 800px) and (max-width: 960px){ 
+@media screen and (min-width: 800px){ 
     html{ 
         font-size: 20px; 
     } 
@@ -345,5 +344,11 @@ p{
         width: 4rem;
         height: 4rem;
         margin: .8rem;
+    }
+    .button-div{
+        top:39%;
+    }
+    .game-win{
+        top:50%;
     }
 } 
