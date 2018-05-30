@@ -165,7 +165,7 @@ function pick(e) {
         conts = 0;
         read = 5;
         clearInterval(reading);
-        clearTimeout(cover)
+    //    clearTimeout(cover)
         clearInterval(timer);
         flag = true;
         switch (event.target.innerHTML) {
@@ -314,7 +314,7 @@ function checking(e) {
 
      * 如果在这之前点击过其他元素 则将两元素显示出色块div 3s后背景进行对比 若相等则移除该节点
     */
-    clearInterval(cover)
+  //  clearInterval(cover)
     var event = e || window.event;
     var eTarget = event.target;
     // var eStyle = event.target.style;
